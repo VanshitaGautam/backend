@@ -1,11 +1,8 @@
-/* Reset default margin & padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Full-page centering */
 body {
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -14,8 +11,6 @@ body {
     height: 100vh;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4);
 }
-
-/* Stylish container */
 .container {
     background: white;
     padding: 25px;
@@ -27,15 +22,12 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-/* Heading */
 h1 {
     font-size: 24px;
     margin-bottom: 15px;
     color: #333;
 }
 
-/* Task list */
 ul {
     list-style: none;
     padding: 0;
@@ -43,7 +35,6 @@ ul {
     width: 100%;
 }
 
-/* Task items */
 li {
     display: flex;
     align-items: center;
@@ -56,13 +47,10 @@ li {
     transition: 0.3s;
     width: 100%;
 }
-
-/* Task hover effect */
 li:hover {
     transform: scale(1.02);
 }
 
-/* Align checkbox, text, and delete button */
 .task-item {
     display: flex;
     align-items: center;
@@ -77,13 +65,11 @@ li:hover {
     font-size: 16px;
 }
 
-/* Checkbox styling */
 input[type="checkbox"] {
     transform: scale(1.3);
     accent-color: #ff7676;
 }
 
-/* Delete button */
 .delete-btn {
     background: transparent;
     border: none;
@@ -99,7 +85,6 @@ input[type="checkbox"] {
     transform: scale(1.2);
 }
 
-/* Input & button styling */
 input[type="text"] {
     width: 80%;
     padding: 10px;
